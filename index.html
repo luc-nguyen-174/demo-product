@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--them vao phan tu moi-->
+<input type="text" id="productName" placeholder="Name">
+<input type="text" id="des" placeholder="Descriptive">
+<input type="text" id="price" placeholder="Price">
+<input type="text" id="quantity" placeholder="Quantity">
+<input type="text" id="img" placeholder="Image">
+<button id="create" onclick="create()">Create</button>
+<br>
+<p id="quantityOfProd"></p>
+<table border="2px">
+    <tr>
+        <td>Name</td>
+        <td>Des</td>
+        <td>Price</td>
+        <td>Quantity</td>
+        <td>IMG</td>
+        <td>Edit</td>
+        <td>Delete</td>
+    </tr>
+    <tbody id="listProd">
+
+    </tbody>
+
+</table>
+</body>
+<script src="product.js"></script>
+<script src="productManagement.js"></script>
+</html>
